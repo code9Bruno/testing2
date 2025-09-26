@@ -6,7 +6,7 @@
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
 	
-	<version>1.0.0-SNAPSHOT</version> 
+	<version>snapshot</version> 
 	
 	<name>maven-web-application</name>
 
@@ -94,14 +94,14 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus-release</id>
-	      <name>TechLink Academy Releases Nexus Repository</name>
-	      <url>http://nexus:8081/repository/release_mtn/</url>
+	      <name>BrunoTech Academy Releases Nexus Repository</name>
+	      <url>http:28.7.2.2/repository/release_App/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus-snapshot</id>
-	      <name>TechLink Academy Snapshot Nexus Repository </name>
-	      <url>http://nexus:8081/repository/snapshot/</url>
+	      <name>BrunoTech Academy Snapshot Nexus Repository </name>
+	      <url>http://198.2.3.3/repository/snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
