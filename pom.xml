@@ -93,13 +93,13 @@
 
 	<distributionManagement>
 	    <repository>
-	      <id>nexus</id>
+	      <id>nexus-release</id>
 	      <name>BrunoTech Academy Releases Nexus Repository</name>
 	      <url>http://localhost:8007/repository/release_MTNpro/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus</id>
+	      <id>nexus-snapshot</id>
 	      <name>BrunoTech Academy Snapshot Nexus Repository </name>
 	      <url>http://localhost:8007/repository/snapshot_MTNpro/</url>
 	    </snapshotRepository>
